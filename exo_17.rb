@@ -3,10 +3,10 @@ age = Integer(gets.chomp)
 
 nbr = rand(40)                  #--> if random number wished. Here <= 40
 
-if nbr < age
+if nbr <= age
     print nbr
     puts " years ago, you were #{age - nbr} years old"
-elsif nbr == age
+elsif nbr == age/2
     print nbr
     puts " years ago, you were half as old as you are now."
 
