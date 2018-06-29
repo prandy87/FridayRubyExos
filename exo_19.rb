@@ -9,4 +9,10 @@ while i < 50
     j += 1
 end 
 
-puts myArray
+k = 0
+while k < 50
+    if (k % 2) != 0
+        puts myArray[k]
+    end    
+    k += 1
+end
